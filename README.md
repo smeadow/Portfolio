@@ -1,6 +1,4 @@
-# Portfolio
-Art-portfolio for computer science.
-    <!DOCTYPE html>
+<!DOCTYPE html>
 <htm lang="en-US">
   
 <html>
@@ -237,3 +235,131 @@ Art-portfolio for computer science.
   </body>
     
 </html>
+
+
+
+<style>
+    h1 {
+  font-size: 5vw;
+  line-height: 0;
+  font-weight: normal;
+}
+
+h2 {
+  font-size: 1.6vw;
+  font-weight: lighter;
+}
+
+h3 {
+  font-size: 3vw;
+  line-height: 0;
+  font-weight: normal;
+}
+
+h4 {
+  font-size: 2.3vw;
+  font-weight: normal;
+}
+
+p {
+  font-size: 1.6vw;
+  font-weight: normal;
+}
+
+.text {
+  color: #081d33;
+  font-family: novecento-sans;
+}
+
+#background {
+  background: #f0f1ec;
+  padding-bottom: 2vw;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+  height: fit-contents;
+  overflow: hidden;
+}
+
+.header {
+  padding-left: 15%;
+  padding-top: 5%;
+}
+
+.nav {
+  text-align: right;
+  padding-right: 15%;
+}
+
+a {
+  color: #081d33;
+  font-size:2vw;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+li {
+  display: inline-block;
+  margin-left: 0.5vw;
+  margin-right: 0.5vw;
+}
+
+li:hover:not(.active) {
+  font-weight: bold;
+}
+
+#nav-bar{
+  height: .2vw;
+  width: 100%;
+  background: #081d33;
+  opacity: 55%;
+}
+
+.column-two{
+  max-width: 96%;
+}
+
+main {
+  float: left;
+  text-align: left;
+  width: 43vw;
+  height: 36vw;
+  background: #f0f1ec;
+  padding: 0vw 2vw 0vw 1vw;
+  margin: 2vw 0vw 0vw 0vw;
+}
+
+aside {
+  float: right;
+  text-align: left;
+  width: 18vw;
+  height: 35vw;
+  background: rgba(41, 70, 95, 0.75);
+  padding: 0vw 2vw 1vw 1vw;
+  margin: 2vw 0vw 1vw 0vw;
+}
+
+#contact {
+  padding: 0vw 0vw 4vw 0vw;
+}
+
+#images {
+  width: fit-contents;
+  height: fit-contents;
+  padding: 2vw 0vw 0vw 2vw;
+  background: ;
+}
+
+.artwork-column-one {
+  max-width: 97.5%;
+}
+
+.big-image-block {
+  max-width: 85%;
+}
+    </style>
